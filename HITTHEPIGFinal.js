@@ -41733,11 +41733,11 @@ if (reversed == null) { reversed = false; }
 		//פונקציה לטעינת הסאונדים
 		function init_Sound(){	
 		//לטעון את הסאונד - נתיב + שם
-		createjs.Sound.registerSound("/sounds/dispointed.mp3", "dispointed");
-		createjs.Sound.registerSound("/sounds/Happy.mp3", "Happy");
-		createjs.Sound.registerSound("/sounds/jump.mp3", "jump");
-		createjs.Sound.registerSound("/sounds/musicBackground.mp3", "musicBackground");
-		createjs.Sound.registerSound("/sounds/thinking.mp3", "thinking");
+		createjs.Sound.registerSound("sounds/dispointed.mp3", "dispointed");
+		createjs.Sound.registerSound("sounds/Happy.mp3", "Happy");
+		createjs.Sound.registerSound("sounds/jump.mp3", "jump");
+		createjs.Sound.registerSound("sounds/musicBackground.mp3", "musicBackground");
+		createjs.Sound.registerSound("sounds/thinking.mp3", "thinking");
 		}
 		
 		// משתנה אשר שומר את הסאונד מופעל
